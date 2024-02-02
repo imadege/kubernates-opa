@@ -23,7 +23,7 @@
 ### Generate service  URL for your cluster 
 - Get the service URL for your kubernates cluster `minikube service userapi-service --url`
 
-## API Documentation interaction
+## API Documentation
 
 ### Get users
 - User the service url get list of users : `http://{{SERVICE_URL}}/users/`
