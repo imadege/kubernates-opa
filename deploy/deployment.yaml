@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: userapi
-        image: userapi:latest
+        image: app:latest
         imagePullPolicy: Never
         ports:
         - containerPort: 8000
